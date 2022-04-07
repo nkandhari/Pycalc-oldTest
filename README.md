@@ -44,3 +44,16 @@ git branch
 If you are in detached head branch, to get back to master (attached state):
 
 `git switch master`
+
+We create a new branch and make changes here. Now we have 2 branches, use-unpacking and master:
+
+`git switch --create use-unpacking`
+`git branch`
+`git status`
+
+Make changes to pycalc.py and commit changes (don't push)
+
+Now, switch back to master and the master will have a previous version of pycalc.py
+Now, I have two branches of my project with different versions of pycalc.py
+
+I can choose to merge them later.
