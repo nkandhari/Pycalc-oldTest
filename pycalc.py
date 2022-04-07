@@ -9,6 +9,8 @@ def compute(expression):# function name: compute
         return num0 + num1
     elif operator == '-':
         return num0 - num1
+    elif operator == '/':
+        return num0 / num1
     else:
         print('unknown operator!')
         return None
