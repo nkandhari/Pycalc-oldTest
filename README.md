@@ -21,3 +21,26 @@ To check file specific changes in case you have changed multiple files:
 
 Check all previous versions of file:
 `git log`
+
+gives you hashes, you can switch a previous version:
+
+git checkout 708eca8ee7af5a9a17a326484855ef92f0ff154f
+
+and switch back to main version with latest changes:
+
+git switch main
+
+To find which branch I am at:
+
+`git branch`
+
+# I have a detached head branch: https://www.cloudbees.com/blog/git-detached-head
+```
+git branch
+* (HEAD detached at ddc03b9)
+  master
+```
+
+If you are in detached head branch, to get back to master (attached state):
+
+`git switch master`
