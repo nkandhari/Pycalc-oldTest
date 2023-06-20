@@ -5,6 +5,7 @@
 # $ from pycalc import compute  --> from the pycalc.py script, import compute function
 # example:
 # $ compute('2 + 2')
+# $ compute('12 / 6')
 def compute(expression):
     num0, operator, num1 = expression.split(' ')
     num0, num1 = int(num0), int(num1)
